@@ -86,7 +86,7 @@ Responses are rendered in the UI
 ## Port Configuration
 | Component | Docker Container Port | Host Port |
 | --------- | --------------------- | --------- |
-| Frontend  | 80 (NGINX)            | 3000      |
+| Frontend  | 3000                  | 3000      |
 | Dev API   | 3001                  | 3001      |
 | Prod API  | 3002                  | 3002      |
 
