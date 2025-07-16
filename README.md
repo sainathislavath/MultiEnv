@@ -13,25 +13,25 @@ The frontend communicates with both backends and displays their responses.
 
 ## 🗂️ Project Structure
 
-multiEnv/
-├── docker-compose.yml
-├── backend/
-│   ├── dev/
-│   │   ├── app.py
-│   │   ├── Dockerfile
-│   │   ├── requirements.txt
-│   └── prod/
-│       ├── app.py
-│       ├── Dockerfile
-│       ├── requirements.txt
-└── frontend/
-    ├── Dockerfile
-    ├── package.json
-    ├── public/
-    │   └── index.html
-    └── src/
-        ├── App.js
-        └── index.js
+multiEnv/ <br />
+├── docker-compose.yml <br />
+├── backend/ <br />
+│   ├── dev/ <br />
+│   │   ├── app.py <br />
+│   │   ├── Dockerfile <br />
+│   │   ├── requirements.txt <br />
+│   └── prod/ <br />
+│       ├── app.py <br />
+│       ├── Dockerfile <br />
+│       ├── requirements.txt <br />
+└── frontend/ <br />
+    ├── Dockerfile <br />
+    ├── package.json <br />
+    ├── public/ <br />
+    │   └── index.html <br />
+    └── src/ <br />
+        ├── App.js <br />
+        └── index.js <br />
 
 
 ---
