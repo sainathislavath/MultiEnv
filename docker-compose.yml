@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  dev-backend:
+    build: ./backend/dev
+    ports:
+      - "3001:3001"
+    restart: always
+
+  prod-backend:
+    build: ./backend/prod
+    ports:
+      - "3002:3002"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - dev-backend
+      - prod-backend
